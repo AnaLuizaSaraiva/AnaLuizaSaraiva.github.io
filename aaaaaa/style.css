@@ -1,8 +1,26 @@
 div{
-    background-color: rgb(75, 11, 75);
-    color:aliceblue;
-    border-radius: 25px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display:inline-block; 
+    float: left;
+}
+    #texto{
+        width: 400px;
+        height: 400px ;
+        background-color: rgb(75, 11, 75);
+        color:aliceblue;
+        border-radius: 25px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #foto{
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: rgb(75, 11, 75);
+    }
+
+img{
+    width: 400px;
+    height: 400px ;
 }
