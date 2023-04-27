@@ -1,5 +1,7 @@
 body{
-    background-image:url("flowers.png");
+    background-image:url("flowers.png" width: 1280px;
+        height: 1024px;);
+     background-color: rgb();
 }
 
 div{
