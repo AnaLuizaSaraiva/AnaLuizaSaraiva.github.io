@@ -4,13 +4,15 @@ body{
     
 }
 
-div{
+/* div{
     display:inline-block; 
     float: left;
-    display: flex;
-  justify-content: center;
 }
-    #texto{
+*/
+    #texto{  
+        text-align: center;
+        float: right;
+        width: 55%;
         width: 400px;
         height: 400px ;
         background-color: rgb(75, 11, 75);
@@ -21,6 +23,8 @@ div{
         padding-bottom: 10px;
     }
     #foto{
+        width: 40%;
+        float: left;
         width: 400px;
         height: 400px;
         padding: 10px;
