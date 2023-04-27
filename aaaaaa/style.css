@@ -4,14 +4,14 @@ body{
     
 }
 
-/* div{
+ div{
     display:inline-block; 
-    float: left;
+    /*float: left;*/
 }
-*/
+
     #texto{  
         text-align: center;
-        float: right;
+        float: left;
         width: 55%;
         width: 400px;
         height: 400px ;
@@ -24,7 +24,7 @@ body{
     }
     #foto{
         width: 40%;
-        float: left;
+        float: right;
         width: 400px;
         height: 400px;
         padding: 10px;
