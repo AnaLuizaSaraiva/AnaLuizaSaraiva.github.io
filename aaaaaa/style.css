@@ -3,6 +3,9 @@ body{
     background-image:url("flores.png");
     
 }
+p,h1{
+	font-style:italic;
+	}
 
  div{
     display:inline-block; 
