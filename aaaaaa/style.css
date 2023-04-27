@@ -6,7 +6,7 @@ body{
 
  div{
     display:inline-block; 
-    /*float: left;*/
+    float: center;
 }
 
     #texto{  
