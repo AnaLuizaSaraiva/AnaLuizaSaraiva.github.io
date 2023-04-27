@@ -6,16 +6,11 @@ body{
 p,h1{
 	font-style:italic;
 	}
-
- div{
+div{
     display:inline-block; 
-    float: center;
+    float: left;
 }
-
-    #texto{  
-        text-align: center;
-        float: left;
-        /*width: 55%;*/
+    #texto{
         width: 400px;
         height: 400px ;
         background-color: rgb(75, 11, 75);
@@ -26,8 +21,6 @@ p,h1{
         padding-bottom: 10px;
     }
     #foto{
-        /*width: 40%;*/
-        float: right;
         width: 400px;
         height: 400px;
         padding: 10px;
