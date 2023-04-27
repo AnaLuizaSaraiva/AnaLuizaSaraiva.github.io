@@ -1,6 +1,7 @@
 body{ 
     background-color: rgb( 205, 255, 209);
-    background-image:url("flores.png");
+    background-image:url("flores.png" width: 400px;
+        height: 600px ;);
     
 }
 
