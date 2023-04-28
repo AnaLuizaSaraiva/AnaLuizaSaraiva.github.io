@@ -1,0 +1,4 @@
+usar o modelo em html para fazer um header e um rodapé para organizar a pagina (usar os agrupamentos semanticos )
+colocar a imagem de fundo e dividir os topicos como quadros e fazer uma galeria comentada, usar uma tabela
+padronizar todas as paginas com links, afim de conseguir e de uma pagina para outra
+arrumar o repositorio e criar uma pasta apenas de imagens
