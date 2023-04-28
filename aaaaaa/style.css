@@ -3,9 +3,16 @@ body{
     background-image:url("flores.png");
     
 }
+header{
+	background-color:rgb(60, 226, 248);
+}
 p,h1{
 	font-style:italic;
 	}
+main{
+	width: 75%;
+	margin:auto;
+}
 div{
     display:inline-block; 
     float: left;
