@@ -9,10 +9,6 @@ body{
 p,h1{
 	font-style:italic;
 	}
-/*main{
-	width: 60%;
-	margin:auto;
-}*/
 .pai{
     display:flex;
     align-items: center;
@@ -22,6 +18,8 @@ p,h1{
         font-size: 20px;
         padding-left:20px;
         color:black;
+	background-color: C6E5B1;
+	text-align: right;   
 
     }
     #foto{
