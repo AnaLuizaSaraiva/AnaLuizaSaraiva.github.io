@@ -13,10 +13,10 @@ main{
 	width: 60%;
 	margin:auto;
 }
- /*div{
+ div{
     display:inline-block; 
     float: left;
-}*/
+}
     #texto{
         width: 400px;
         height: 400px ;
