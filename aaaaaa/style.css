@@ -9,36 +9,26 @@ body{
 p,h1{
 	font-style:italic;
 	}
-main{
+/*main{
 	width: 60%;
 	margin:auto;
-}
- div{
-    display:inline-block; 
-    float: left;
+}*/
+.pai{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
     #texto{
-        width: 400px;
-        height: 400px ;
-        background-color: rgb(75, 11, 75);
-        color:aliceblue;
-        border-radius: 25px;
-        padding-left: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-	float:right;
+        font-size: 20px;
+        padding-left:20px;
+        color:black;
+
     }
     #foto{
-        width: 400px;
-        height: 400px;
-        padding: 10px;
-        border-radius: 25px;
-        background-color: rgb(75, 11, 75);
-	float:left;
+       flex-basis:40%;
 	    
     }
 
 img{
-    width: 400px;
-    height: 400px ;
+    max-width: 100%;
 }
