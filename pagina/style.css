@@ -33,10 +33,10 @@ p,h1{
 
     }
     #foto{
-       flex-basis:60%;
+       flex-basis:40%;
 	    
     }
 
 img{
-    max-width: 150%;
+    max-width: 100%;
 }
