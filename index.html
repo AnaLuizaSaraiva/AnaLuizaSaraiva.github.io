@@ -1,58 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="/imagens/PeepoGlad.png" type="image/x-icon">
         <title>Coisas que eu gosto </title>
-        <style>
-           body{ 
-               background-color: rgb(230, 154, 119); 		 
-		background-image:url("/imagens/flores.png");
-                color: rgb(63, 40, 31);
-            } 
-            div{ 
-                background-color: rgb(83, 47, 30);
-                color: rgb(255, 229, 221);
-                border-radius: 25px;
-                padding-left: 10px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
-            h1{
-	            font-style:bold;
-	        }
-            h3{
-                font-style: italic;
-            }
-		header{
-		 background-color: black;
-                 color: white;
-		 padding:15px;
-		 margin:10px;	
-		 border-radius: 25px;
-		}
-		    
-	  
-			
-        </style>
     </head>
    
     <body>
                  
          <header>
 	   <center> <h1> O IF está te deixando ablublu das ideias? vem cá que eu vou tentar te ajudar!</h1></center>    
-	  <p>Olá galera, meu nome é <a link href="/pagina/ana.html" style="color: white;"> <mark>Ana Luiza</mark\></a> e hoje eu vou falar um pouco sobre algumas coisas que gosto de fazer quando tenho tempo livre.</p>
+	  <p>Olá galera,  hoje eu vou falar um pouco sobre algumas coisas que gosto de fazer quando tenho tempo livre.</p>
           <p>A vida corrida de estudante chega a ser muito estressante, por isso, resolvi compartilhar um pouco dos meus hobbies, não que eu os faça com frequencia, mas tamo ae.</p>
         <p>(A maioria dessas fotos foi eu que tirei)</p>
        </header> 
 
-	<div>
+	<div class="pai">
         <h3>Fazer caça-palavras</h3>
         <p>Sim, eu sei, parece coisa de velho, mas eu acho muito legal!</p>
     </div> 
 	    <center><img src="/imagens/livro.gif" width="654"; height="368";> </center>
    
 	    
-    <div>
+	<div class="pai">
+    
         <h3>Ouvir musica</h3>
         <p> A música consegue moldar sentimentos de muitas formas, serve para animar, acalmar, demonstrar amor e ódio. Gosto de ouvir musica em todos os momentos, é como sair da realidade.<br>  
          Abaixo segue uma playlist ds duas das minhas artistas favoritas </p>
@@ -62,8 +36,8 @@
            <a link href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO3zuWdi"><img src="/imagens/melanie.jpg" width="320"; height="320";></a>
         </center>
        
-    <div>  
-        <h3>Sair para caminhar </h3>
+    <div class="pai">
+            <h3>Sair para caminhar </h3>
         <p> Quando me sinto muito agitada, gosto de caminhar sozinha em algum lugar com muitas árvores, pois além de acalmar os pensamentos, eu ainda consigo aliviar a agitação por meio do exercício físico </p>
         
 	</div>
@@ -72,8 +46,8 @@
             <img src="/imagens/toca.jpg" width="250"; height="320";>
         </center>
 
-    <div>
-        <h3>Sentar-se ao ar livre </h3>
+    <div class="pai">
+            <h3>Sentar-se ao ar livre </h3>
         <p> Se em vez de agitação, eu sentir um cansaço fisico e mental, a melhor coisa a se fazer é ir para um local calmo ao ar livre, assim é possivel ouvir os sons da natureza e contemplá-la. Pode ser num jardim, praça, ou até mesmo no estacionamento do IF.</p>    
 	</div>
         <center>  
@@ -81,8 +55,8 @@
             <img src="/imagens/arvore.jpg" width="516"; height="290"> 
         </center>
        
-	<div>
-        <h3>Observar o pôr-do-sol </h3>
+      <div class="pai">
+            <h3>Observar o pôr-do-sol </h3>
         <p>Ver o Sol se por, me lembra de que tudo é passageiro, inclusive o sofrimento. Alguns dias são mais longos que outros, mas eles sempre terminam, se transformam e recomeçam, assim como nós seres humanos.</p>
      </div>
 	    <center>
@@ -90,8 +64,8 @@
             <img src="/imagens/açude.jpg" width="516"; height="290"> 
        	 </center>
         
-     <div>
-        <h3>Fazer qualquer tipo de arte</h3>
+        <div class="pai">
+                <h3>Fazer qualquer tipo de arte</h3>
         <p> Você não precisa ser artista, só precisa de criatividade. Pode ser desde tocar algum instrumento, escrever textos, fazer artesanato ou quem sabe fazer desenhos (todo rabisco é arte).  O importante é liberar a criatividade! </p>
     </div>
 	    <center>
@@ -100,8 +74,8 @@
             <img src="/imagens/colagem.jpg" width="200"; height="320";>
         </center>
        
-	<div>
-        <h3>Fazer carinho em algum animal</h3>
+    <div class="pai">
+            <h3>Fazer carinho em algum animal</h3>
         <p>Animais são muito fofos, eles têm o poder de acalmar sem dizer uma palavra, amar incondicionalmente e te deixar feliz sem esforço. Obrigado aos animaizinhos que ja passaram pela minha vida</p>
     </div>
 	    <center>
@@ -110,8 +84,8 @@
             <img src="/imagens/pato.jpg" width="200"; height="320";>
         </center>
     
-    <div>
-        <h3>Contemplar a natureza</h3>
+    <div class="pai">
+            <h3>Contemplar a natureza</h3>
         <p>Muitas vezes estamos tão presos na nossa bolha de sentimentos que não paramos para observar o quanto a vida é bonita, isso pode nos ajudar a manter a paz às vezes.</p>
     </div>
 	    <center>
@@ -122,25 +96,20 @@
        
         <div class="carousel-container">
             <div class="carousel-slide">
-                <!-- Conteúdo do primeiro slide -->
                 <div class="content">
                     <img src="/imagens/1.png" alt="Imagem 1">
                 </div>
             </div>
             
             <div class="carousel-slide">
-                <!-- Conteúdo do segundo slide -->
                 <div class="content">
                     <img src="/imagens/2.png" alt="Imagem 2">
-                    <p>Texto do Slide 2</p>
                 </div>
             </div>
             
             <div class="carousel-slide">
-                <!-- Conteúdo do segundo slide -->
                 <div class="content">
                     <img src="/imagens/3.png" alt="Imagem 3">
-                    <p>Texto do Slide 2</p>
                 </div>
             </div>
                         

@@ -4,7 +4,7 @@ body{
     background-color: rgb(230, 154, 119); 		 
     background-image:url("/imagens/flores.png");
             color: rgb(63, 40, 31);
-}
+}           
 
 header{
     background-color: black;
@@ -13,30 +13,7 @@ header{
     margin:10px;	
     border-radius: 25px;
    }
-
-p,h1{
-	font-style:italic;
-	}
-.pai{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-    #texto{
-        background-color: rgb(83, 47, 30);
-        color: rgb(255, 229, 221);
-        border-radius: 25px;
-        padding-left: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 15px;
-	    text-align: right;   
-
-    }
-    #foto{
-       flex-basis:40%;
-	    
-    }
+   
 
 .carousel-container {
     width: 100%;
@@ -60,3 +37,20 @@ img {
     max-width: 100%;
     max-height: 80vh;
 }
+
+ .pai{ 
+     background-color: rgb(83, 47, 30);
+     color: rgb(255, 229, 221);
+     border-radius: 25px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ h1{
+     font-style:bold;
+ }
+ h3{
+     font-style: italic;
+ }
+
+ 
