@@ -1,21 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const container = document.querySelector(".carousel-container");
     const slides = document.querySelectorAll(".carousel-slide");
-
-    let counter = 1;
+    let currentSlide = 0;
 
     setInterval(() => {
-        container.style.transition = "transform 0.5s ease-in-out";
-        container.style.transform = `translateX(${-counter * 100}%)`;
+        slides[currentSlide].style.display = "none";
 
-        counter++;
-
-        if (counter === slides.length) {
-            setTimeout(() => {
-                container.style.transition = "none";
-                container.style.transform = "translateX(0)";
-                counter = 1;
-            }, 500);
+        currentSlide++;
+        if (currentSlide === slides.length) {
+            currentSlide = 0;
         }
+
+        slides[currentSlide].style.display = "block";
     }, 5000);
 });
